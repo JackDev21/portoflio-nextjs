@@ -14,13 +14,15 @@ interface ExperienceItemProps {
 export function ExperienceItem({ startDate, endDate, jobTitle, company, description, isLeft }: ExperienceItemProps) {
     return (
         <div
-            className={`mb-8 flex w-full items-center justify-between ${isLeft ? "left-timeline flex-row-reverse" : "right-timeline"}`}
+            className={`mb-10 flex w-full items-center justify-center ${isLeft ? "left-timeline flex-row-reverse" : "right-timeline"} `}
         >
             <div className="order-1 w-5/12"></div>
-            <div className="z-20 order-1 flex h-8 w-8 items-center rounded-full bg-primary shadow-xl">
-                <h1 className="mx-auto text-lg font-semibold text-white">{startDate.split("-")[0]}</h1>
+            <div className="z-20 order-1 flex w-auto items-center rounded-full bg-primary p-1 shadow-xl">
+                <h1 className="mx-auto text-lg font-semibold text-white dark:text-gray-900">
+                    {startDate.split("-")[0]}
+                </h1>
             </div>
-            <Card className={`order-1 ${isLeft ? "mr-auto" : "ml-auto"} w-5/12 px-6 py-4`}>
+            <Card className={`order-1 ${isLeft ? "mr-auto" : "ml-auto"} w-[49%] px-4 py-4`}>
                 <CardHeader className="mb-2 p-0">
                     <div className="mb-1 flex items-center text-sm text-muted-foreground">
                         <CalendarIcon className="mr-2 h-4 w-4" />

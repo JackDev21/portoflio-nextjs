@@ -29,10 +29,13 @@ const experiences = [
 
 export function ExperienceTimeline() {
     return (
-        <div className="container mx-auto h-full w-full">
-            <h2 className="mb-8 text-center text-2xl font-bold">Experiencia Laboral</h2>
-            <div className="wrap relative h-full overflow-hidden p-10">
-                <div className="border-2-2 absolute left-1/2 h-full border border-primary border-opacity-20"></div>
+        <div className="container mx-auto mb-36 h-full w-full">
+            <h2 className="mb-5 text-center text-4xl font-bold text-green-800 dark:text-green-200">Experiencia</h2>
+            <div className="relative h-full p-10">
+                <div
+                    className="absolute left-1/2 hidden h-full border border-primary border-opacity-20 md:block"
+                    style={{ transform: "translateX(-50%)" }}
+                ></div>
                 {experiences.map((exp, index) => (
                     <ExperienceItem key={index} {...exp} isLeft={index % 2 === 0} />
                 ))}

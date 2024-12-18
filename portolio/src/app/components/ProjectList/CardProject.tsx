@@ -13,7 +13,7 @@ interface ProjectCardProps {
 
 export function ProjectsCard({ title, description, image, technologies }: ProjectCardProps) {
     return (
-        <Card className="w-[350px]">
+        <Card className="w-[360px]">
             <CardHeader>
                 <CardTitle>{title}</CardTitle>
             </CardHeader>

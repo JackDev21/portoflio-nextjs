@@ -2,10 +2,12 @@
 
 import Particles, { initParticlesEngine } from "@tsparticles/react"
 import { loadSlim } from "@tsparticles/slim"
+import { useTheme } from "next-themes"
 import { useEffect, useState } from "react"
 
 export function ParticlesBackground() {
     const [init, setInit] = useState(false)
+    const { theme } = useTheme()
 
     useEffect(() => {
         initParticlesEngine(async (engine) => {
@@ -17,7 +19,7 @@ export function ParticlesBackground() {
 
     return (
         init && (
-            <div className="w-[0px]">
+            <div className="fixed inset-0 -z-10">
                 <Particles
                     id="tsparticles"
                     options={{
@@ -45,10 +47,10 @@ export function ParticlesBackground() {
                         },
                         particles: {
                             color: {
-                                value: "#ffffff",
+                                value: theme === "dark" ? "#ffffff" : "#000000", // Cambiar color según el tema
                             },
                             links: {
-                                color: "#ffffff",
+                                color: theme === "dark" ? "#ffffff" : "#000000", // Cambiar color según el tema
                                 distance: 150,
                                 enable: true,
                                 opacity: 0.5,

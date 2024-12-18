@@ -4,7 +4,7 @@
 
 @layer base {
     :root {
-        --background: 0 0% 100%;
+        --background: 0 0% 85%;
         --foreground: 222.2 84% 4.9%;
 
         --muted: 210 40% 96.1%;
@@ -77,36 +77,22 @@
     }
 }
 
-/* Estilos adicionales para la línea de tiempo */
-.left-timeline::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-    border: medium solid white;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
-}
-
-.right-timeline::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-}
-
 @media (max-width: 767px) {
     .left-timeline::before,
     .right-timeline::before {
         display: none;
+    }
+    .left-timeline,
+    .right-timeline {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-timeline .order-1,
+    .right-timeline .order-1 {
+        width: 100%;
+    }
+    .left-timeline .z-20,
+    .right-timeline .z-20 {
+        align-self: flex-end;
     }
 }
