@@ -19,7 +19,15 @@ export function ProjectsCard({ title, description, image, technologies }: Projec
             </CardHeader>
             <CardContent>
                 <div className="relative mb-4 h-[200px] w-full">
-                    <Image src={image} alt={title} layout="fill" objectFit="cover" className="rounded-md" />
+                    <Image
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        priority
+                        src={image}
+                        alt={title}
+                        fill
+                        style={{ objectFit: "cover" }}
+                        className="rounded-md"
+                    />
                 </div>
                 <CardDescription>{description}</CardDescription>
             </CardContent>

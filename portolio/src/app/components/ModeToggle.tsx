@@ -22,7 +22,7 @@ export function ModeToggle() {
     }, [resolvedTheme])
 
     return (
-        <Button variant="outline" size="icon" onClick={toggleTheme}>
+        <Button variant="outline" size="icon" onClick={toggleTheme} className="text-gray-900 dark:text-white">
             {resolvedTheme === "light" ? (
                 <Moon className="h-[1.2rem] w-[1.2rem]" />
             ) : (
