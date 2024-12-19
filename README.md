@@ -3,7 +3,7 @@
 ¡Bienvenido a mi portfolio personal! Aquí encontrarás información sobre mi experiencia, proyectos destacados y tecnologías que domino como desarrollador web full-stack. Este portfolio fue diseñado para reflejar mi pasión por la programación y mi crecimiento continuo como profesional en el desarrollo de software.
 
 ## 🚀 Sobre el proyecto
-Este portfolio está construido con **Next.js**, aprovechando su capacidad de rendimiento y renderizado optimizado, acompañado de **Tailwind CSS** para un diseño moderno y responsivo. Además, incorpora animaciones interactivas y efectos visuales con **Framer Motion** y **tsparticles**, ofreciendo una experiencia visual atractiva y fluida.
+Este portfolio está construido con **Next.js**, aprovechando su capacidad de rendimiento y renderizado optimizado, acompañado de **Tailwind CSS** para un diseño moderno y responsivo. Además, incorpora animaciones interactivas y efectos visuales con **tsparticles**, ofreciendo una experiencia visual atractiva y fluida.
 
 ### 🌟 Características principales
 - **Información personal**: Presentación profesional y detalles sobre mi experiencia.
