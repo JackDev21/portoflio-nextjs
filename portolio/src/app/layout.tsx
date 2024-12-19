@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import type { Metadata } from "next"
 import { Geist, Geist_Mono, Press_Start_2P } from "next/font/google"
 
@@ -36,7 +37,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} ${pressStart2P.variable} antialiased`}>
         <ThemeProvider>
-          {children} <Navbar /> <Footer />
+          {children} <Navbar /> <Footer /> <Analytics />
         </ThemeProvider>
       </body>
     </html>
