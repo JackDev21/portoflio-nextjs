@@ -1,6 +1,5 @@
 import HyperText from "@/components/ui/hyper-text"
 
-import { ParticlesBackground } from "../ParticlesBackground/ParticlesBackground"
 import { AvatarDemo } from "./Avatar"
 import { Navbar } from "./Navbar"
 
