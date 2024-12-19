@@ -1,31 +1,6 @@
-import { ExperienceItem } from "./ExperienceItem"
+import { experiences } from "@/app/data"
 
-const experiences = [
-  {
-    startDate: "2022-01",
-    endDate: "Presente",
-    jobTitle: "Desarrollador Full Stack Senior",
-    company: "TechCorp Inc.",
-    description:
-      "Lideré el desarrollo de aplicaciones web utilizando React y Node.js. Implementé arquitecturas escalables y mejoré el rendimiento de las aplicaciones existentes.",
-  },
-  {
-    startDate: "2019-06",
-    endDate: "2021-12",
-    jobTitle: "Desarrollador Front-end",
-    company: "WebSolutions Ltd.",
-    description:
-      "Desarrollé interfaces de usuario responsivas y accesibles utilizando React y Vue.js. Colaboré en la implementación de una nueva arquitectura de microservicios.",
-  },
-  {
-    startDate: "2017-09",
-    endDate: "2019-05",
-    jobTitle: "Desarrollador Junior",
-    company: "StartUp Innovations",
-    description:
-      "Participé en el desarrollo de aplicaciones móviles utilizando React Native. Aprendí y apliqué metodologías ágiles en un entorno de startup dinámico.",
-  },
-]
+import { ExperienceItem } from "./ExperienceItem"
 
 export function ExperienceTimeline() {
   return (

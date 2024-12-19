@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio - Jose Agustín Cantó
 
-## Getting Started
+¡Bienvenido a mi portfolio personal! Aquí encontrarás información sobre mi experiencia, proyectos destacados y tecnologías que domino como desarrollador web full-stack. Este portfolio fue diseñado para reflejar mi pasión por la programación y mi crecimiento continuo como profesional en el desarrollo de software.
 
-First, run the development server:
+## 🚀 Sobre el proyecto
+Este portfolio está construido con **Next.js**, aprovechando su capacidad de rendimiento y renderizado optimizado, acompañado de **Tailwind CSS** para un diseño moderno y responsivo. Además, incorpora animaciones interactivas y efectos visuales con **Framer Motion** y **tsparticles**, ofreciendo una experiencia visual atractiva y fluida.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🌟 Características principales
+- **Información personal**: Presentación profesional y detalles sobre mi experiencia.
+- **Proyectos destacados**: Una selección de proyectos con descripción, tecnologías utilizadas y enlaces a GitHub o aplicaciones en producción.
+- **Tecnologías**: Sección visual que muestra mi stack tecnológico dividido en frontend, backend y utilidades.
+- **Experiencia profesional**: Línea de tiempo interactiva que destaca mi trayectoria laboral y educativa.
+- **Modo oscuro**: Experiencia visual adaptada a las preferencias del usuario gracias a **next-themes**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tecnologías utilizadas
+### **Frontend**
+- React 19
+- Next.js 15.1
+- Tailwind CSS 3.4
+- Shadcn
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **Backend**
+- Node.js
+- TypeScript
 
-## Learn More
+### **Utilidades**
+- ESLint y Prettier (incluyendo configuración de importaciones)
+- Radix UI (avatar, tooltips, dropdowns)
+- tsparticles (animaciones y efectos visuales)
+- Iconos con react-icons
 
-To learn more about Next.js, take a look at the following resources:
+## 🚧 Cómo usar este portfolio
+1. **Instalar dependencias**: Ejecuta el siguiente comando:
+   ```bash
+   npm install
+   ```
+2. **Modo desarrollo**: Levanta el servidor local en http://localhost:3000
+   ```bash
+   npm run dev
+   ```
+3. **Construir para producción**: Genera los archivos optimizados:
+   ```bash
+   npm run build
+   ```
+4. **Ejecutar en producción**: Comienza la aplicación optimizada:
+   ```bash
+   npm start
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 Scripts disponibles
+- **`npm run dev`**: Inicia el servidor de desarrollo con Turbopack para recarga rápida.
+- **`npm run build`**: Compila el proyecto para producción.
+- **`npm run start`**: Inicia el servidor de producción.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧑‍💻 Autor
+Este portfolio fue desarrollado por **JackDev**. Siempre en busca de nuevos retos y oportunidades para crecer profesionalmente.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌐 Enlaces
+- [LinkedIn](https://www.linkedin.com/in/joseaclopez/)
+- [GitHub](https://github.com/JackDev21)
+- [Portafolio online](https://josecantoportfolio.vercel.app/)
