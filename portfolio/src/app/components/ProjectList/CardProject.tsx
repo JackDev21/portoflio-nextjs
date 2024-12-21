@@ -62,7 +62,7 @@ export function ProjectsCard({ title, description, image, gitHubLink, video, tec
       </CardFooter>
 
       {url && (
-        <Badge className="flex justify-center p-3 mx-5">
+        <Badge className="mx-5 flex justify-center p-3">
           <Link href={url}> {url} </Link>
         </Badge>
       )}
