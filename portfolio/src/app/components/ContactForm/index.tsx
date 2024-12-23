@@ -54,7 +54,7 @@ export function ContactForm() {
           className: "bg-red-500 text-white",
         })
       }
-    } catch (error) {
+    } catch {
       toast({
         title: "Error",
         description: "Hubo un problema al enviar el mensaje. Inténtalo de nuevo más tarde.",
