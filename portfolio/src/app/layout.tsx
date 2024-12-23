@@ -2,6 +2,10 @@ import { Analytics } from "@vercel/analytics/react"
 import type { Metadata } from "next"
 import { Geist, Geist_Mono, Press_Start_2P } from "next/font/google"
 
+import { ContactContextProvider } from "@/app/context/ContactContext"
+import { Toaster } from "@/components/ui/toaster"
+
+import { ContactForm } from "./components/ContactForm"
 import { Footer } from "./components/Footer"
 import { Navbar } from "./components/Navbar"
 import { ThemeProvider } from "./components/theme-provider"
@@ -37,7 +41,11 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} ${pressStart2P.variable} antialiased`}>
         <ThemeProvider>
-          {children} <Navbar /> <Footer /> <Analytics />
+          <ContactContextProvider>
+            <ContactForm />
+            <Toaster />
+            {children} <Navbar /> <Footer /> <Analytics />
+          </ContactContextProvider>
         </ThemeProvider>
       </body>
     </html>

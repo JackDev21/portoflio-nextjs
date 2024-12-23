@@ -1,6 +1,17 @@
+"use client"
+
 import Link from "next/link"
+import { useContext } from "react"
+
+import { ContactContext } from "@/app/context/ContactContext"
 
 export function Navbar() {
+  const { showContact, setShowContact } = useContext(ContactContext)
+
+  const handleShowContact = () => {
+    setShowContact(!showContact)
+  }
+
   return (
     <nav
       id="start"
@@ -12,9 +23,12 @@ export function Navbar() {
       <Link href="#projects" className="text-gray-900 hover:text-orange-500 dark:text-white dark:hover:text-orange-500">
         Proyectos
       </Link>
-      <Link href="#contact" className="text-gray-900 hover:text-orange-500 dark:text-white dark:hover:text-orange-500">
+      <button
+        onClick={handleShowContact}
+        className="m-0 border-none bg-transparent p-0 text-gray-900 hover:text-orange-500 dark:text-white dark:hover:text-orange-500"
+      >
         Contacto
-      </Link>
+      </button>
     </nav>
   )
 }
