@@ -19,9 +19,8 @@ export function About() {
             JavaScript, React, HTML, CSS, TailwindCSS, Node.js, Express, MongoDB y testing con Mocha & Chai.
           </p>
           <p className="mb-4 bg-[#d9d9d9] text-gray-700 dark:bg-[#020817] dark:bg-none dark:text-gray-300">
-            Ahora, estoy en busca de mi primera oportunidad como desarrollador. Estoy convencido de que nunca es tarde
-            para seguir tus pasiones y estoy listo para aportar mi entusiasmo y dedicación a cualquier equipo que me dé
-            la oportunidad.
+            Estoy convencido de que nunca es tarde para seguir tus pasiones y estoy listo para aportar mi entusiasmo,
+            dedicación y todas esas horas que estoy invirtiendo en el código.
           </p>
           <p className="mb-4 bg-[#d9d9d9] text-gray-700 dark:bg-[#020817] dark:bg-none dark:text-gray-300">
             Además, estoy aprendiendo nuevas tecnologías como TypeScript, Next.js, inteligencia artificial y Redux para
