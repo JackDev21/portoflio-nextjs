@@ -95,44 +95,71 @@ export const projects = [
 
 export const experiences = [
   {
+    startDate: "2025-01",
+    endDate: "Presente",
+    jobTitle: "Fullstack Developer",
+    company: "RkiveAI",
+    description: [
+      "Como Junior Fullstack Developer en RkiveAI, contribuyo al desarrollo y mantenimiento de nuestras plataformas tecnológicas, trabajando tanto en el frontend como en el backend. Este rol me permite ganar experiencia práctica en desarrollo full-stack, integración de inteligencia artificial y gestión de infraestructura en la nube.",
+      "Responsabilidades:",
+      "- Mantener y actualizar aplicaciones en Node.js.",
+      "- Implementar nuevas APIs y funcionalidades.",
+      "- Gestionar y optimizar bases de datos.",
+      "- Actualizar interfaces en React Native.",
+      "- Garantizar la compatibilidad de diseño en múltiples plataformas.",
+      "- Gestionar recursos en AWS y configurar entornos de despliegue.",
+      "- Colaborar en procesos de integración y despliegue continuo.",
+      "- Realizar tareas de depuración y pruebas.",
+      "- Validar nuevas características y actualizaciones.",
+      "- Apoyar la incorporación de funciones basadas en IA.",
+    ],
+  },
+  {
     startDate: "2024-11",
     endDate: "2024-12",
     jobTitle: "Desarrollador Full Stack MERN",
     company: "Igrowker Proyecto REFFINDER",
-    description:
-      "Participé en el desarrollo del proyecto REFFINDER, una plataforma que facilita el alquiler de viviendas. \n\n" +
-      "Desafío del proyecto: Simplificar el proceso de alquiler y hacerlo más justo para todos los involucrados, permitiendo a los inquilinos recomendar nuevos ocupantes y ganar una comisión. \n\n" +
-      "Solución: Implementación de una plataforma que permite a los inquilinos recomendar nuevos ocupantes y ganar una comisión, mientras que los nuevos inquilinos pagan menos y los propietarios reciben candidatos revisados sin pagar comisiones altas. \n\n" +
-      "Tecnologías utilizadas: React, Tailwind CSS, Node.js, .NET (C#), Python, Power BI, PostgreSQL. \n\n" +
+    description: [
+      "Participé en el desarrollo del proyecto REFFINDER, una plataforma que facilita el alquiler de viviendas.",
+      "Desafío del proyecto: Simplificar el proceso de alquiler y hacerlo más justo para todos los involucrados, permitiendo a los inquilinos recomendar nuevos ocupantes y ganar una comisión.",
+      "Solución: Implementación de una plataforma que permite a los inquilinos recomendar nuevos ocupantes y ganar una comisión, mientras que los nuevos inquilinos pagan menos y los propietarios reciben candidatos revisados sin pagar comisiones altas.",
+      "Tecnologías utilizadas: React, Tailwind CSS, Node.js, .NET (C#), Python, Power BI, PostgreSQL.",
       "Responsabilidades: Creación de componentes frontend y backend, integración con bases de datos y APIs, y colaboración con otros desarrolladores para resolver problemas complejos y mejorar la calidad del código.",
+    ],
   },
   {
     startDate: "2024-09",
     endDate: "2024-10",
     jobTitle: "Desarrollador Full Stack MERN",
     company: "Igrowkers Proyecto GoPass",
-    description:
-      "Participé en el desarrollo del Proyecto GoPass, una plataforma web diseñada para mitigar la reventa de entradas falsas en eventos deportivos en Argentina. \n\n" +
-      "Desafío del proyecto: Abordar la reventa ilegal de entradas y la falsificación masiva mediante la validación en tiempo real de boletos, utilizando códigos QR únicos. \n\n" +
-      "Solución: Implementación de una plataforma que permite a los usuarios verificar la autenticidad de sus entradas y revenderlas de manera segura, reduciendo el fraude y protegiendo tanto a vendedores como a compradores. \n\n" +
-      "Tecnologías utilizadas: Git, GitHub, GitHub Actions, React, TypeScript, Redux/Toolkit, TailwindCSS, .NET, C#, API de Ticketmaster. \n\n" +
-      "Responsabilidades: Creación de componentes frontend para el registro, reventa y compra de entradas. Integración con el backend para asegurar la transferencia segura de entradas. Trabajo en equipo colaborando con otros desarrolladores, además de realizar tareas individualmente y participar en sesiones de pair programming para resolver problemas complejos y mejorar la calidad del código. \n\n" +
+    description: [
+      "Participé en el desarrollo del Proyecto GoPass, una plataforma web diseñada para mitigar la reventa de entradas falsas en eventos deportivos en Argentina.",
+      "Desafío del proyecto: Abordar la reventa ilegal de entradas y la falsificación masiva mediante la validación en tiempo real de boletos, utilizando códigos QR únicos.",
+      "Solución: Implementación de una plataforma que permite a los usuarios verificar la autenticidad de sus entradas y revenderlas de manera segura, reduciendo el fraude y protegiendo tanto a vendedores como a compradores.",
+      "Tecnologías utilizadas: Git, GitHub, GitHub Actions, React, TypeScript, Redux/Toolkit, TailwindCSS, .NET, C#, API de Ticketmaster.",
+      "Responsabilidades: Creación de componentes frontend para el registro, reventa y compra de entradas. Integración con el backend para asegurar la transferencia segura de entradas. Trabajo en equipo colaborando con otros desarrolladores, además de realizar tareas individualmente y participar en sesiones de pair programming para resolver problemas complejos y mejorar la calidad del código.",
       "Resultados clave: Contribución en la creación de una plataforma escalable y segura, mejorando la confianza de los fanáticos y organizadores de eventos deportivos.",
+    ],
   },
   {
     startDate: "2023-11",
     endDate: "2024-08",
     jobTitle: "Desarrollador Full Stack MERN",
     company: "ISDI Coders",
-    description:
-      "Inicié a formarme de manera autodidacta en noviembre de 2023, y más tarde, me uní al bootcamp de ISDI Coders con más de 1000h, donde adquirí conocimientos en el stack MERN, JavaScript, React, HTML, CSS, TailwindCSS, Node.js, Express, MongoDB y testing con Mocha & Chai. Ahora, estoy en busca de mi primera oportunidad como desarrollador. Estoy convencido de que nunca es tarde para seguir tus pasiones y estoy decidido a encontrar un lugar donde pueda aplicar mis habilidades, aprender, y crecer. Sin juniors no hay seniors, y estoy listo para aportar mi entusiasmo y dedicación a cualquier equipo que me dé la oportunidad.",
+    description: [
+      "Inicié a formarme de manera autodidacta en noviembre de 2023, y más tarde, me uní al bootcamp de ISDI Coders con más de 1000h, donde adquirí conocimientos en el stack MERN, JavaScript, React, HTML, CSS, TailwindCSS, Node.js, Express, MongoDB y testing con Mocha & Chai.",
+      "Ahora, estoy en busca de mi primera oportunidad como desarrollador. Estoy convencido de que nunca es tarde para seguir tus pasiones y estoy decidido a encontrar un lugar donde pueda aplicar mis habilidades, aprender, y crecer. Sin juniors no hay seniors, y estoy listo para aportar mi entusiasmo y dedicación a cualquier equipo que me dé la oportunidad.",
+    ],
   },
   {
     startDate: "2018-07",
     endDate: "2023-11",
     jobTitle: "Técnico electrónico",
     company: "Sonova Group",
-    description:
-      "Trabajé en equipo con profesionales multidisciplinarios para mejorar los procesos de fabricación y reparación de audífonos. Me especialicé en la resolución de problemas técnicos y logísticos, adaptándome rápidamente a nuevas tecnologías como SAP y sistemas de soldadura avanzada. Gestioné mi tiempo de manera eficiente para cumplir con plazos ajustados sin comprometer la calidad, manteniendo un enfoque constante en la calidad y asegurando que cada producto cumpliera con los estándares más altos.",
+    description: [
+      "Trabajé en equipo con profesionales multidisciplinarios para mejorar los procesos de fabricación y reparación de audífonos.",
+      "Me especialicé en la resolución de problemas técnicos y logísticos, adaptándome rápidamente a nuevas tecnologías como SAP y sistemas de soldadura avanzada.",
+      "Gestioné mi tiempo de manera eficiente para cumplir con plazos ajustados sin comprometer la calidad, manteniendo un enfoque constante en la calidad y asegurando que cada producto cumpliera con los estándares más altos.",
+    ],
   },
 ]

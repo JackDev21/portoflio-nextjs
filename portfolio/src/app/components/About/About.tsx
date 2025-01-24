@@ -26,6 +26,10 @@ export function About() {
             Además, estoy aprendiendo nuevas tecnologías como TypeScript, Next.js, inteligencia artificial y Redux para
             seguir mejorando mis habilidades y mantenerme actualizado en el campo del desarrollo web.
           </p>
+          <p className="mb-4 bg-[#d9d9d9] text-gray-700 dark:bg-[#020817] dark:text-gray-300">
+            Actualmente, estoy trabajando en RkiveAI como Junior Fullstack Developer, donde contribuyo al desarrollo y
+            mantenimiento de nuestras plataformas tecnológicas, trabajando tanto en el frontend como en el backend.
+          </p>
         </div>
       </div>
     </div>

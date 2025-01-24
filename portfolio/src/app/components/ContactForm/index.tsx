@@ -1,8 +1,9 @@
 "use client"
 
 import { zodResolver } from "@hookform/resolvers/zod"
+import { ReloadIcon } from "@radix-ui/react-icons"
 import axios from "axios"
-import { useContext } from "react"
+import { useContext, useState } from "react"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
 
@@ -24,6 +25,7 @@ type FormValues = z.infer<typeof schema>
 export function ContactForm() {
   const { toast } = useToast()
   const { showContact, setShowContact } = useContext(ContactContext)
+  const [isLoading, setIsLoading] = useState(false)
 
   const form = useForm<FormValues>({
     resolver: zodResolver(schema),
@@ -35,6 +37,7 @@ export function ContactForm() {
   })
 
   async function onSubmit(data: FormValues) {
+    setIsLoading(true)
     try {
       const response = await axios.post("/api/contact", data)
       const result = response.data
@@ -60,6 +63,8 @@ export function ContactForm() {
         description: "Hubo un problema al enviar el mensaje. Inténtalo de nuevo más tarde.",
         className: "bg-red-500 text-white",
       })
+    } finally {
+      setIsLoading(false)
     }
   }
 
@@ -112,8 +117,19 @@ export function ContactForm() {
                 )}
               />
               <div className="flex justify-between">
-                <Button type="submit" className="btn btn-primary bg-green-700 hover:bg-green-500">
-                  Enviar
+                <Button
+                  type="submit"
+                  disabled={isLoading}
+                  className="btn btn-primary bg-teal-600 text-white hover:bg-green-600"
+                >
+                  {isLoading ? (
+                    <div className="flex items-center">
+                      <ReloadIcon className="mr-2 h-4 w-4 animate-spin" />
+                      Enviando...
+                    </div>
+                  ) : (
+                    "Enviar"
+                  )}
                 </Button>
                 <Button
                   type="button"
