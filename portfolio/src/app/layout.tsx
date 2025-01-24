@@ -28,7 +28,7 @@ const pressStart2P = Press_Start_2P({
 })
 
 export const metadata: Metadata = {
-  title: "Portolio Jack",
+  title: "Portfolio Jack",
   description: "Portfolio Jose A. Cantó",
 }
 
