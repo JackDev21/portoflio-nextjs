@@ -17,7 +17,7 @@ export function AvatarDemo() {
           </div>
         )}
         <AvatarImage
-          src="./JackDev21IA.jpg"
+          src="./JackDev21Ia.jpg"
           alt="Foto Jack"
           onLoad={() => setIsLoading(false)}
           className={isLoading ? "opacity-0" : "opacity-100"}
