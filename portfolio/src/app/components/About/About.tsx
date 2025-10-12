@@ -9,11 +9,10 @@ export function About() {
         <div className="flex flex-col items-center justify-center text-lg md:flex-row">
           <div className="mt-5 flex flex-col items-center justify-center space-y-4 text-left md:mt-0 md:w-2/3 md:pl-10 md:text-justify">
             <p className="text-gray-700 dark:text-gray-300">
-              Soy <strong>Desarrollador Full-Stack</strong> y actualmente formo parte del equipo de{" "}
-              <strong>RkiveAI</strong>. RkiveAI es una plataforma impulsada por inteligencia artificial que transforma
-              tu cámara y carrete en contenido listo para publicar. Automatiza la edición, facilita la planificación y
-              programación de publicaciones, y ofrece analíticas para optimizar el rendimiento en redes como Instagram,
-              TikTok y YouTube.
+              Actualmente formo parte del equipo de <strong>RkiveAI</strong>. RkiveAI es una plataforma impulsada por
+              inteligencia artificial que transforma tu cámara y carrete en contenido listo para publicar. Automatiza la
+              edición, facilita la planificación y programación de publicaciones, y ofrece analíticas para optimizar el
+              rendimiento en redes como Instagram, TikTok y YouTube.
             </p>
 
             <p className="text-gray-700 dark:text-gray-300">
