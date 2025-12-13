@@ -2,10 +2,10 @@ export const projects = [
   {
     title: "RkiveAI - Sitio web (Next.js)",
     description:
-      "Sitio web corporativo y panel de marketing de RkiveAI construido con Next.js. Presenta la misión del producto, planes y recursos, y sirve como punto de entrada para usuarios y clientes. Formo parte del equipo y trabajo en la implementación y mejora de la integración de pagos con Stripe (Checkout, Elements y webhooks), en los endpoints y webhooks que sincronizan suscripciones, además de optimizaciones de rendimiento, SEO y componentes interactivos. El front también consume servicios de IA (OpenAI) para features asistidas y se despliega en infraestructuras en la nube.",
+      "Sitio web corporativo y panel de marketing de RkiveAI construido con Next.js. Presenta la misión del producto, planes y recursos, y sirve como punto de entrada para usuarios y clientes. Formo parte del equipo y trabajo en la implementación y mejora de la integración de pagos con Stripe (Checkout, Elements y webhooks), en los endpoints y webhooks que sincronizan suscripciones, además de optimizaciones de rendimiento, SEO y componentes interactivos. El front también consume servicios de IA para funcionalidades basadas en IA y se despliega en infraestructuras en la nube.",
     image: "/rkiveai/rkiveaiweb.png",
     video: "",
-    technologies: ["Next.js", "React", "TypeScript", "TailwindCSS", "Stripe", "OpenAI", "AWS", "Framer Motion"],
+    technologies: ["Next.js", "React", "TypeScript", "TailwindCSS", "Stripe", "IA", "AWS", "Framer Motion"],
     gitHubLink: [],
     url: "https://www.rkiveai.com",
   },
@@ -37,7 +37,7 @@ export const projects = [
   {
     title: "Igrowkers Intake 4 Proyecto Reffindr",
     description:
-      "Reffindr es una solución PropTech para el mercado inmobiliario desarrollada en sólo 4 semanas. Cuenta con una arquitectura compleja con frontend en React, BFF con NodeJs, Backend en .NET, Data con Python y despliegue en Amazon Web Services (AWS). Participé como fullstack tanto en el frontend como en el backend de Node.js donde se implemento un Backend for frontend(BFF), donde fui el líder de equipo del backend del BFF. Un MVP con una alta calidad de producto.",
+      "Reffindr es una solución PropTech para el mercado inmobiliario desarrollada en sólo 4 semanas. Cuenta con una arquitectura compleja con frontend en React, BFF con NodeJs, backend en .NET, data con Python y despliegue en Amazon Web Services (AWS). Participé como fullstack tanto en el frontend como en el backend de Node.js, donde se implementó un Backend for Frontend (BFF) y fui líder de equipo del backend del BFF. Un MVP con una alta calidad de producto.",
     image: "/reffindr/reffindr1.png",
     video: "/reffindr/reffindr.mp4",
     technologies: ["React", "Vite", "TypeScript", "Chakra", "Zustand", "Axios", "NodeJs", "Express", ".NET", "Python"],
@@ -49,7 +49,7 @@ export const projects = [
   {
     title: "FactuClient",
     description:
-      "FactuClient es una aplicación <strong>versión mobile</strong> de gestión diseñada para facilitar la creación, visualización y manejo de albaranes y facturas de clientes. Los usuarios pueden crear perfiles de clientes, gestionar sus datos, generar facturas a partir de albaranes existentes, y descargar o compartir estas facturas y albaranes en formato PDF. Este proyecto es parte del proyecto final del BootCamp de ISDICODERS, el cual actualmente esta siendo utilizado por mi familia para la gestion, si deseas verlo en profuncidad contactame.",
+      "FactuClient es una aplicación <strong>versión mobile</strong> de gestión diseñada para facilitar la creación, visualización y manejo de albaranes y facturas de clientes. Los usuarios pueden crear perfiles de clientes, gestionar sus datos, generar facturas a partir de albaranes existentes, y descargar o compartir estas facturas y albaranes en formato PDF. Este proyecto es parte del proyecto final del bootcamp de ISDICODERS, el cual actualmente está siendo utilizado por mi familia para la gestión. Si deseas verlo en profundidad, contáctame.",
     image: "/factuclient/factuclient1.png",
     video: "",
     technologies: [
@@ -72,7 +72,7 @@ export const projects = [
   {
     title: "Social Code",
     description:
-      "Social Code es una aplicación <strong>versión mobile</strong> desarrollada para facilitar la interacción y colaboración entre desarrolladores. Utiliza una arquitectura con React en el frontend y Vite como herramienta de desarrollo. La aplicación permite a los usuarios compartir código, y conectarse con otros desarrolladores.",
+      "Social Code es una aplicación <strong>versión mobile</strong> desarrollada para facilitar la interacción y colaboración entre desarrolladores. Utiliza una arquitectura con React en el frontend y Vite como herramienta de desarrollo. La aplicación permite a los usuarios compartir código y conectarse con otros desarrolladores.",
     image: "/socialcode/socialcode.png",
     video: "",
     technologies: [
@@ -128,12 +128,12 @@ export const experiences = [
     description: [
       "Como Junior Fullstack Developer en RkiveAI, contribuyo activamente al desarrollo y evolución de nuestro ecosistema tecnológico, trabajando en múltiples capas de la stack: desde la experiencia de usuario en React Native/Expo hasta la infraestructura cloud en AWS. Este rol me ha permitido profundizar en integración de inteligencia artificial, arquitecturas serverless, procesamiento de media y sistemas de pagos en producción.",
       "Responsabilidades:",
-      "- **Backend & APIs:** Desarrollar y mantener servicios backend en Node.js/Express, diseñando nuevas APIs RESTful y mejorando endpoints existentes para soportar funcionalidades de suscripciones, procesamiento de medios y webhooks de Stripe y OpenAI.",
+      "- **Backend & APIs:** Diseñar e implementar servicios backend en Node.js/Express: APIs REST, webhooks y lógica de negocio (Stripe e IA).",
       "- **Bases de Datos:** Gestionar y optimizar esquemas en DynamoDB y bases de datos relacionales, implementando queries eficientes y estrategias de indexación para mejorar el rendimiento de la app.",
-      "- **Frontend Mobile:** Actualizar y mejorar interfaces en React Native/Expo (con soporte web), implementando flujos de subida/procesamiento de vídeos, gestión de thumbnails, programación de publicaciones y notificaciones push.",
-      "- **Integraciones de Pago:** Implementar y mantener la integración de Stripe (Checkout, Elements y webhooks) para gestionar suscripciones, sincronización de usuarios y procesamiento de eventos de facturación.",
-      "- **Infraestructura Cloud:** Administrar recursos en AWS (EC2, CloudFront, API Gateway, S3, App Runner, DynamoDB, ECR, Cognito, CloudWatch, IAM), configurar pipelines CI/CD y optimizar despliegues tanto para el sitio web (Next.js) como para servicios backend.",
-      "- **IA & Automatización:** Integrar servicios de OpenAI para funcionalidades asistidas, optimización de contenido y edición automática por IA, además de depurar y validar comportamientos de modelos en producción.",
+      "- **Frontend Mobile:** Desarrollar funcionalidades en React Native/Expo (con soporte web): flujos de subida/procesamiento de vídeos, gestión de thumbnails, programación de publicaciones y notificaciones push.",
+      "- **Integraciones de Pago:** Implementar y evolucionar Stripe (Checkout, Elements y webhooks) para suscripciones, sincronización de usuarios y procesamiento de eventos de facturación.",
+      "- **Infraestructura Cloud:** Gestionar recursos en AWS (EC2, CloudFront, API Gateway, S3, App Runner, DynamoDB, ECR, Cognito, CloudWatch, IAM), configurar pipelines CI/CD y optimizar despliegues tanto para el sitio web (Next.js) como para servicios backend.",
+      "- **IA & Automatización:** Implementar funcionalidades basadas en IA (asistentes, optimización de contenido y edición automática), además de validar comportamientos de modelos en producción.",
       "- **Testing & QA:** Realizar pruebas funcionales, depuración de bugs y validación de nuevas características en entornos staging antes de producción, asegurando estabilidad y calidad del código.",
     ],
   },
@@ -170,8 +170,8 @@ export const experiences = [
     jobTitle: "Desarrollador Full Stack MERN",
     company: "ISDI Coders",
     description: [
-      "Inicié a formarme de manera autodidacta en noviembre de 2023, y más tarde, me uní al bootcamp de ISDI Coders con más de 1000h, donde adquirí conocimientos en el stack MERN, JavaScript, React, HTML, CSS, TailwindCSS, Node.js, Express, MongoDB y testing con Mocha & Chai.",
-      "Ahora, estoy en busca de mi primera oportunidad como desarrollador. Estoy convencido de que nunca es tarde para seguir tus pasiones y estoy decidido a encontrar un lugar donde pueda aplicar mis habilidades, aprender, y crecer. Sin juniors no hay seniors, y estoy listo para aportar mi entusiasmo y dedicación a cualquier equipo que me dé la oportunidad.",
+      "Inicié a formarme de manera autodidacta en noviembre de 2023, y más tarde me uní al bootcamp de ISDI Coders con más de 1000h, donde adquirí conocimientos en el stack MERN, JavaScript, React, HTML, CSS, TailwindCSS, Node.js, Express, MongoDB y testing con Mocha & Chai.",
+      "Ahora estoy en busca de mi primera oportunidad como desarrollador. Estoy convencido de que nunca es tarde para seguir tus pasiones y estoy decidido a encontrar un lugar donde pueda aplicar mis habilidades, aprender y crecer. Sin juniors no hay seniors, y estoy listo para aportar mi entusiasmo y dedicación a cualquier equipo que me dé la oportunidad.",
     ],
   },
   {

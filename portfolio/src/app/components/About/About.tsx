@@ -17,19 +17,19 @@ export function About() {
 
             <p className="text-gray-700 dark:text-gray-300">
               En mi rol como <strong>Fullstack Developer</strong> en RkiveAI (mar. 2025 - actualidad, remoto, Madrid),
-              contribuyo al desarrollo y mantenimiento de nuestras plataformas tecnológicas: tanto en frontend (web con
+              contribuyo al desarrollo y evolución de nuestras plataformas tecnológicas: tanto en frontend (web con
               Next.js, apps móviles con React Native y Expo) como en backend.
             </p>
 
             <div className="text-gray-700 dark:text-gray-300">
               <strong>Responsabilidades principales:</strong>
               <ul className="ml-5 mt-2 list-disc">
-                <li>Mantenimiento y desarrollo backend en Node.js; implementación de nuevas APIs.</li>
-                <li>Soporte frontend y ajustes en React Native (Expo) para asegurar UX/UI consistente en la app.</li>
-                <li>Integración y mantenimiento de pagos con Stripe para la web (Next.js).</li>
-                <li>Participación en gestión de infraestructura en AWS y pipelines de CI/CD.</li>
-                <li>Depuración, pruebas y aseguramiento de calidad a través del stack completo.</li>
-                <li>Apoyo en la integración de funcionalidades basadas en IA dentro de la plataforma.</li>
+                <li>Desarrollo backend en Node.js/Express: diseño e implementación de APIs y webhooks.</li>
+                <li>Desarrollo frontend (Next.js y React Native/Expo): funcionalidades end-to-end de cero a producción.</li>
+                <li>Implementación y evolución de pagos con Stripe (Checkout, Elements y webhooks) para suscripciones.</li>
+                <li>Gestión de infraestructura en AWS y pipelines de CI/CD: despliegues, permisos y observabilidad.</li>
+                <li>Implementación de funcionalidades basadas en IA dentro del producto.</li>
+                <li>Depuración, pruebas y aseguramiento de calidad a través de la stack completa.</li>
               </ul>
             </div>
 

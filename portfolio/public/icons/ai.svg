@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect x="12" y="14" width="40" height="36" rx="6" stroke="currentColor" stroke-width="4" />
+  <path
+    d="M22 14V8M32 14V8M42 14V8M22 56V50M32 56V50M42 56V50M12 24H6M12 32H6M12 40H6M58 24H52M58 32H52M58 40H52"
+    stroke="currentColor"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+  <path
+    d="M24 44L30 24L36 44M26 38H34"
+    stroke="currentColor"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path d="M42 24V44" stroke="currentColor" stroke-width="4" stroke-linecap="round" />
+</svg>
+
