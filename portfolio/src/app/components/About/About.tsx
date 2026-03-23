@@ -34,7 +34,7 @@ export function About() {
             </div>
 
             <p className="text-gray-700 dark:text-gray-300">
-              Vengo de un background en electrónica, lo que me dio disciplina y atención al detalle. En 2023 redirigí mi
+              Vengo de un background en electrónica y microninformatica donde desde pequeño me encanta este mundo relacionado con la tecnología. En 2023 redirigí mi
               carrera hacia la programación y desde entonces me motiva crear productos que aporten valor real y mejoren
               la experiencia.
             </p>
