@@ -126,7 +126,7 @@ export const experiences = [
     jobTitle: "Fullstack Developer",
     company: "RkiveAI",
     description: [
-      "Como Junior Fullstack Developer en RkiveAI, contribuyo activamente al desarrollo y evolución de nuestro ecosistema tecnológico, trabajando en múltiples capas de la stack: desde la experiencia de usuario en React Native/Expo hasta la infraestructura cloud en AWS. Este rol me ha permitido profundizar en integración de inteligencia artificial, arquitecturas serverless, procesamiento de media y sistemas de pagos en producción.",
+      "Como Junior Fullstack Developer en RkiveAI, trabajo en el desarrollo y evolución de nuestro ecosistema tecnológico, trabajando en múltiples capas de la stack: desde la experiencia de usuario en React Native/Expo hasta la infraestructura cloud en AWS. Este rol me ha permitido profundizar en integración de inteligencia artificial, arquitecturas serverless, procesamiento de media y sistemas de pagos en producción.",
       "Responsabilidades:",
       "- **Backend & APIs:** Diseñar e implementar servicios backend en Node.js/Express: APIs REST, webhooks y lógica de negocio (Stripe e IA).",
       "- **Bases de Datos:** Gestionar y optimizar esquemas en DynamoDB y bases de datos relacionales, implementando queries eficientes y estrategias de indexación para mejorar el rendimiento de la app.",
