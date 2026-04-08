@@ -55,7 +55,7 @@ export const projects = [
     description:
       "GoPass es una plataforma web diseñada para mitigar la reventa de entradas falsas en eventos deportivos en Argentina. Como líder de equipo en el frontend, trabajé en la creación de componentes para el registro, reventa y compra de entradas, y en la integración con el backend para asegurar la transferencia segura de entradas. Tecnologías utilizadas: React, TypeScript, Redux/Toolkit, TailwindCSS, .NET, C#, API de Ticketmaster.",
     image: "/gopass/gopass1.png",
-    video: "https://www.youtube.com/watch?v=GbVOSw_JDzw",
+    video: "",
     technologies: ["React", "Vite", "TypeScript", "Axios", "Redux/Toolkit", "TailwindCSS", "DaisyUI"],
     gitHubLink: ["https://github.com/igrowker/i003-gopass-front"],
   },
