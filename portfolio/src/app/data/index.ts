@@ -1,5 +1,30 @@
 export const projects = [
   {
+    title: "Incident Management System",
+    description:
+      "Sistema full-stack de gestión de incidencias compuesto por una API backend (Node.js, Express, MongoDB) y un dashboard frontend (React, TypeScript, Vite). Permite crear, visualizar, actualizar y eliminar incidencias, además de contar con un asistente de IA integrado para consultar incidencias usando lenguaje natural. La arquitectura sigue las mejores prácticas para escalabilidad y separación de responsabilidades, e incluye soporte completo para Docker.",
+    images: [
+      "/incident-dashboard/incident-dashboard.png",
+      "/incident-dashboard/incident-dashboard-chat.png",
+      "/incident-dashboard/incident-dashboard-chat-filter.png",
+    ],
+    video: "",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Docker",
+      "IA",
+      "React Query",
+      "SCSS",
+    ],
+    gitHubLink: ["https://github.com/JackDev21/incident-management-system"],
+    url: "",
+  },
+  {
     title: "RkiveAI - Sitio web (Next.js)",
     description:
       "Sitio web corporativo y panel de marketing de RkiveAI construido con Next.js. Presenta la misión del producto, planes y recursos, y sirve como punto de entrada para usuarios y clientes. Formo parte del equipo y trabajo en la implementación y mejora de la integración de pagos con Stripe (Checkout, Elements y webhooks), en los endpoints y webhooks que sincronizan suscripciones, además de optimizaciones de rendimiento, SEO y componentes interactivos. El front también consume servicios de IA para funcionalidades basadas en IA y se despliega en infraestructuras en la nube.",
@@ -92,7 +117,6 @@ export const projects = [
       "JWT",
     ],
     gitHubLink: ["https://github.com/JackDev21/SocialCode-Project"],
-    url: "https://socialcoders.netlify.app",
   },
   {
     title: "JavaScript Quiz",
@@ -122,11 +146,11 @@ export const projects = [
 export const experiences = [
   {
     startDate: "2025-01",
-    endDate: "Presente",
+    endDate: "2026-03",
     jobTitle: "Fullstack Developer",
     company: "RkiveAI",
     description: [
-      "Como Junior Fullstack Developer en RkiveAI, trabajo en el desarrollo y evolución de nuestro ecosistema tecnológico, trabajando en múltiples capas de la stack: desde la experiencia de usuario en React Native/Expo hasta la infraestructura cloud en AWS. Este rol me ha permitido profundizar en integración de inteligencia artificial, arquitecturas serverless, procesamiento de media y sistemas de pagos en producción.",
+      "Como Junior Fullstack Developer en RkiveAI, trabajé en el desarrollo y evolución de nuestro ecosistema tecnológico, trabajando en múltiples capas de la stack: desde la experiencia de usuario en React Native/Expo hasta la infraestructura cloud en AWS. Este rol me ha permitido profundizar en integración de inteligencia artificial, arquitecturas serverless, procesamiento de media y sistemas de pagos en producción.",
       "Responsabilidades:",
       "- **Backend & APIs:** Diseñar e implementar servicios backend en Node.js/Express: APIs REST, webhooks y lógica de negocio (Stripe e IA).",
       "- **Bases de Datos:** Gestionar y optimizar esquemas en DynamoDB y bases de datos relacionales, implementando queries eficientes y estrategias de indexación para mejorar el rendimiento de la app.",
