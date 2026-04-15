@@ -48,7 +48,7 @@ export const projects = [
     video: "",
     technologies: ["React Native", "Expo", "React", "TypeScript", "Firebase", "Expo Router", "Axios"],
     gitHubLink: [],
-    url: "https://app.rkiveai.com",
+    url: "https://studio.rkiveai.com",
   },
   {
     title: "Igrowkers Intake 3 Proyecto GoPass",
