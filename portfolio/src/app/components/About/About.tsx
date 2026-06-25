@@ -16,7 +16,7 @@ export function About() {
             </p>
 
             <p className="text-gray-700 dark:text-gray-300">
-              En mi rol como <strong>Fullstack Developer</strong> en RkiveAI (ene. 2025 - mar. 2025, remoto, Madrid),
+              En mi rol como <strong>Fullstack Developer</strong> en RkiveAI (ene. 2025 - mar. 2026, remoto, Madrid),
               contribuí al desarrollo y evolución de sus plataformas tecnológicas: tanto en frontend (web con Next.js,
               apps móviles con React Native y Expo) como en backend.
             </p>
