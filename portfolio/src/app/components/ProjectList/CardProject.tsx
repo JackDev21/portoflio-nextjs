@@ -35,7 +35,7 @@ export function ProjectsCard({
   const gallery = images && images.length > 0 ? images : image ? [image] : []
 
   return (
-    <Card className="w-[395px]">
+    <Card className="w-full max-w-[395px] sm:w-[395px]">
       <CardHeader>
         <CardTitle>{title}</CardTitle>
       </CardHeader>
@@ -75,7 +75,7 @@ export function ProjectsCard({
             </div>
           )}
         </div>
-        <CardDescription dangerouslySetInnerHTML={{ __html: description }} />
+        <CardDescription className="whitespace-pre-line" dangerouslySetInnerHTML={{ __html: description }} />
       </CardContent>
 
       <CardFooter>

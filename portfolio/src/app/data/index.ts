@@ -27,7 +27,7 @@ export const projects = [
   {
     title: "RkiveAI - Sitio web (Next.js)",
     description:
-      "Sitio web corporativo y panel de marketing de RkiveAI construido con Next.js. Presenta la misión del producto, planes y recursos, y sirve como punto de entrada para usuarios y clientes. Formo parte del equipo y trabajo en la implementación y mejora de la integración de pagos con Stripe (Checkout, Elements y webhooks), en los endpoints y webhooks que sincronizan suscripciones, además de optimizaciones de rendimiento, SEO y componentes interactivos. El front también consume servicios de IA para funcionalidades basadas en IA y se despliega en infraestructuras en la nube.",
+      "Sitio web corporativo y panel de marketing de RkiveAI construido con Next.js. Presenta la misión del producto, planes y recursos, y sirve como punto de entrada para usuarios y clientes. Formé parte del equipo y trabajé en la implementación y mejora de la integración de pagos con Stripe (Checkout, Elements y webhooks), en los endpoints y webhooks que sincronizan suscripciones, además de optimizaciones de rendimiento, SEO y componentes interactivos. El front también consume servicios de IA para funcionalidades basadas en IA y se despliega en infraestructuras en la nube.",
     image: "/rkiveai/rkiveaiweb.png",
     video: "",
     technologies: ["Next.js", "React", "TypeScript", "TailwindCSS", "Stripe", "IA", "AWS", "Framer Motion"],
@@ -37,7 +37,7 @@ export const projects = [
   {
     title: "RkiveAI - App (Expo / React Native)",
     description:
-      "Aplicación móvil de RkiveAI desarrollada con React Native + Expo (con soporte web). En la app formo parte del equipo que gestiona la subida de vídeos y fotos (optimización y generación de thumbnails), integramos APIs de edición automática por IA, programamos publicaciones y manejamos notificaciones. Implemento lógica cliente/servidor para el procesado de media, consumo de APIs protegidas y mejoras de UX en flujos de creación.",
+      "Aplicación móvil de RkiveAI desarrollada con React Native + Expo (con soporte web). En la app formé parte del equipo que gestionó la subida de vídeos y fotos (optimización y generación de thumbnails), integramos APIs de edición automática por IA, programamos publicaciones y manejamos notificaciones. Implementé lógica cliente/servidor para el procesado de media, consumo de APIs protegidas y mejoras de UX en flujos de creación.",
     images: [
       "/rkiveai/app.rkiveai.com_feed(iPhone 6_7_8 Plus).png",
       "/rkiveai/app.rkiveai.com_feed(iPhone 6_7_8 Plus) (1).png",
@@ -53,16 +53,16 @@ export const projects = [
   {
     title: "Igrowkers Intake 3 Proyecto GoPass",
     description:
-      "GoPass es una plataforma web diseñada para mitigar la reventa de entradas falsas en eventos deportivos en Argentina. Como líder de equipo en el frontend, trabajé en la creación de componentes para el registro, reventa y compra de entradas, y en la integración con el backend para asegurar la transferencia segura de entradas. Tecnologías utilizadas: React, TypeScript, Redux/Toolkit, TailwindCSS, .NET, C#, API de Ticketmaster.",
+      "GoPass es una plataforma web diseñada para mitigar la reventa de entradas falsas en eventos deportivos en Argentina. Como líder de equipo en el frontend, trabajé en la creación de componentes para el registro, reventa y compra de entradas, y en la integración con el backend para asegurar la transferencia segura de entradas. Tecnologías utilizadas: React, TypeScript, Redux Toolkit, TailwindCSS, .NET, C#, API de Ticketmaster.",
     image: "/gopass/gopass1.png",
     video: "",
-    technologies: ["React", "Vite", "TypeScript", "Axios", "Redux/Toolkit", "TailwindCSS", "DaisyUI"],
+    technologies: ["React", "Vite", "TypeScript", "Axios", "Redux Toolkit", "TailwindCSS", "DaisyUI"],
     gitHubLink: ["https://github.com/igrowker/i003-gopass-front"],
   },
   {
     title: "Igrowkers Intake 4 Proyecto Reffindr",
     description:
-      "Reffindr es una solución PropTech para el mercado inmobiliario desarrollada en sólo 4 semanas. Cuenta con una arquitectura compleja con frontend en React, BFF con NodeJs, backend en .NET, data con Python y despliegue en Amazon Web Services (AWS). Participé como fullstack tanto en el frontend como en el backend de Node.js, donde se implementó un Backend for Frontend (BFF) y fui líder de equipo del backend del BFF. Un MVP con una alta calidad de producto.",
+      "Reffindr es una solución PropTech para el mercado inmobiliario desarrollada en sólo 4 semanas. Cuenta con una arquitectura compleja con frontend en React, BFF con Node.js, backend en .NET, data con Python y despliegue en Amazon Web Services (AWS). Participé como fullstack tanto en el frontend como en el backend de Node.js, donde se implementó un Backend for Frontend (BFF) y fui líder de equipo del backend del BFF. Un MVP con una alta calidad de producto.",
     image: "/reffindr/reffindr1.png",
     video: "/reffindr/reffindr.mp4",
     technologies: ["React", "Vite", "TypeScript", "Chakra", "Zustand", "Axios", "NodeJs", "Express", ".NET", "Python"],
@@ -74,7 +74,7 @@ export const projects = [
   {
     title: "FactuClient",
     description:
-      "FactuClient es una aplicación <strong>versión mobile</strong> de gestión diseñada para facilitar la creación, visualización y manejo de albaranes y facturas de clientes. Los usuarios pueden crear perfiles de clientes, gestionar sus datos, generar facturas a partir de albaranes existentes, y descargar o compartir estas facturas y albaranes en formato PDF. Este proyecto es parte del proyecto final del bootcamp de ISDICODERS, el cual actualmente está siendo utilizado por mi familia para la gestión. Si deseas verlo en profundidad, contáctame.",
+      "FactuClient es una aplicación <strong>versión móvil</strong> de gestión diseñada para facilitar la creación, visualización y manejo de albaranes y facturas de clientes. Los usuarios pueden crear perfiles de clientes, gestionar sus datos, generar facturas a partir de albaranes existentes, y descargar o compartir estas facturas y albaranes en formato PDF. Este proyecto es parte del proyecto final del bootcamp de ISDI Coders, el cual actualmente está siendo utilizado por mi familia para la gestión. Si deseas verlo en profundidad, contáctame.",
     image: "/factuclient/factuclient1.png",
     video: "",
     technologies: [
@@ -97,7 +97,7 @@ export const projects = [
   {
     title: "Social Code",
     description:
-      "Social Code es una aplicación <strong>versión mobile</strong> desarrollada para facilitar la interacción y colaboración entre desarrolladores. Utiliza una arquitectura con React en el frontend y Vite como herramienta de desarrollo. La aplicación permite a los usuarios compartir código y conectarse con otros desarrolladores.",
+      "Social Code es una aplicación <strong>versión móvil</strong> desarrollada para facilitar la interacción y colaboración entre desarrolladores. Utiliza una arquitectura con React en el frontend y Vite como herramienta de desarrollo. La aplicación permite a los usuarios compartir código y conectarse con otros desarrolladores.",
     image: "/socialcode/socialcode.png",
     video: "",
     technologies: [
@@ -165,9 +165,9 @@ export const experiences = [
     startDate: "2024-11",
     endDate: "2024-12",
     jobTitle: "Desarrollador Full Stack MERN",
-    company: "Igrowker Proyecto REFFINDER",
+    company: "Igrowker Proyecto Reffindr",
     description: [
-      "Participé en el desarrollo del proyecto REFFINDER, una plataforma que facilita el alquiler de viviendas.",
+      "Participé en el desarrollo del proyecto Reffindr, una plataforma que facilita el alquiler de viviendas.",
       "Desafío del proyecto: Simplificar el proceso de alquiler y hacerlo más justo para todos los involucrados, permitiendo a los inquilinos recomendar nuevos ocupantes y ganar una comisión.",
       "Solución: Implementación de una plataforma que permite a los inquilinos recomendar nuevos ocupantes y ganar una comisión, mientras que los nuevos inquilinos pagan menos y los propietarios reciben candidatos revisados sin pagar comisiones altas.",
       "Tecnologías utilizadas: React, Tailwind CSS, Node.js, .NET (C#), Python, Power BI, PostgreSQL.",
@@ -183,7 +183,7 @@ export const experiences = [
       "Participé en el desarrollo del Proyecto GoPass, una plataforma web diseñada para mitigar la reventa de entradas falsas en eventos deportivos en Argentina.",
       "Desafío del proyecto: Abordar la reventa ilegal de entradas y la falsificación masiva mediante la validación en tiempo real de boletos, utilizando códigos QR únicos.",
       "Solución: Implementación de una plataforma que permite a los usuarios verificar la autenticidad de sus entradas y revenderlas de manera segura, reduciendo el fraude y protegiendo tanto a vendedores como a compradores.",
-      "Tecnologías utilizadas: Git, GitHub, GitHub Actions, React, TypeScript, Redux/Toolkit, TailwindCSS, .NET, C#, API de Ticketmaster.",
+      "Tecnologías utilizadas: Git, GitHub, GitHub Actions, React, TypeScript, Redux Toolkit, TailwindCSS, .NET, C#, API de Ticketmaster.",
       "Responsabilidades: Creación de componentes frontend para el registro, reventa y compra de entradas. Integración con el backend para asegurar la transferencia segura de entradas. Trabajo en equipo colaborando con otros desarrolladores, además de realizar tareas individualmente y participar en sesiones de pair programming para resolver problemas complejos y mejorar la calidad del código.",
       "Resultados clave: Contribución en la creación de una plataforma escalable y segura, mejorando la confianza de los fanáticos y organizadores de eventos deportivos.",
     ],

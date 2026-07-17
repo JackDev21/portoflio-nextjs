@@ -3,6 +3,7 @@
 import { zodResolver } from "@hookform/resolvers/zod"
 import { ReloadIcon } from "@radix-ui/react-icons"
 import axios from "axios"
+import { X } from "lucide-react"
 import { useContext, useState } from "react"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
@@ -71,20 +72,33 @@ export function ContactForm() {
   return (
     <>
       {showContact && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-800 bg-opacity-95">
+        <div 
+          onClick={() => setShowContact(false)}
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4"
+        >
           <Form {...form}>
             <form
+              onClick={(e) => e.stopPropagation()}
               onSubmit={form.handleSubmit(onSubmit)}
-              className="min-w-96 space-y-8 rounded-lg bg-blue-50 bg-opacity-75 p-8 shadow-lg"
+              className="relative w-full max-w-md space-y-6 rounded-lg bg-card border shadow-2xl p-8"
             >
+              <button
+                type="button"
+                onClick={() => setShowContact(false)}
+                className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none"
+                aria-label="Cerrar"
+              >
+                <X className="h-4 w-4" />
+              </button>
+
               <FormField
                 control={form.control}
                 name="name"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="dark:text-black">Nombre</FormLabel>
+                    <FormLabel>Nombre</FormLabel>
                     <FormControl>
-                      <Input placeholder="Tu nombre" {...field} className="text-black" />
+                      <Input placeholder="Tu nombre" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -95,9 +109,9 @@ export function ContactForm() {
                 name="email"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="dark:text-black">Email</FormLabel>
+                    <FormLabel>Email</FormLabel>
                     <FormControl>
-                      <Input type="email" placeholder="tu@email.com" {...field} className="text-black" />
+                      <Input type="email" placeholder="tu@email.com" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -108,22 +122,22 @@ export function ContactForm() {
                 name="message"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="dark:text-black">Mensaje</FormLabel>
+                    <FormLabel>Mensaje</FormLabel>
                     <FormControl>
-                      <Textarea placeholder="Tu mensaje" {...field} className="text-black" />
+                      <Textarea placeholder="Tu mensaje" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
                 )}
               />
-              <div className="flex justify-between">
+              <div className="flex justify-between gap-4 pt-2">
                 <Button
                   type="submit"
                   disabled={isLoading}
-                  className="btn btn-primary bg-teal-600 text-white hover:bg-green-600"
+                  className="w-1/2 bg-teal-600 text-white hover:bg-green-600"
                 >
                   {isLoading ? (
-                    <div className="flex items-center">
+                    <div className="flex items-center justify-center">
                       <ReloadIcon className="mr-2 h-4 w-4 animate-spin" />
                       Enviando...
                     </div>
@@ -133,7 +147,7 @@ export function ContactForm() {
                 </Button>
                 <Button
                   type="button"
-                  className="btn btn-secondary bg-black text-white hover:bg-gray-500"
+                  className="w-1/2 bg-neutral-900 dark:bg-neutral-800 text-white hover:bg-neutral-600 dark:hover:bg-neutral-700"
                   onClick={() => setShowContact(false)}
                 >
                   Cancelar

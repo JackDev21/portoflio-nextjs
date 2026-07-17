@@ -77,25 +77,6 @@
   }
 }
 
-@media (max-width: 767px) {
-  .left-timeline::before,
-  .right-timeline::before {
-    display: none;
-  }
-  .left-timeline,
-  .right-timeline {
-    flex-direction: column;
-    align-items: center;
-  }
-  .left-timeline .order-1,
-  .right-timeline .order-1 {
-    width: 100%;
-  }
-  .left-timeline .z-20,
-  .right-timeline .z-20 {
-    align-self: flex-end;
-  }
-}
 
 .font-gaming {
   font-family: var(--font-press-start-2p), cursive;

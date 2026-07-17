@@ -6,7 +6,6 @@ import { ModeToggle } from "../ModeToggle"
 export function Navbar() {
   return (
     <div
-      id="contact"
       className="fixed bottom-4 left-1/2 z-20 -translate-x-1/2 transform rounded-2xl bg-gray-800 text-white shadow-lg"
     >
       <div className="flex items-center justify-center gap-5 p-4">
