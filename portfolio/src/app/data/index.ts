@@ -21,7 +21,7 @@ export const projects = [
       "React Query",
       "SCSS",
     ],
-    gitHubLink: ["https://github.com/JackDev21/incident-management-system"],
+    gitHubLink: ["https://github.com/JackDev21/incident-dashboard"],
     url: "",
   },
   {
