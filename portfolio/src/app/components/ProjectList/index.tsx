@@ -18,6 +18,7 @@ export function ProjectList() {
         {projects.map((project, index) => (
           <motion.div
             key={index}
+            className="w-full max-w-[395px] sm:w-[395px]"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 10 }}

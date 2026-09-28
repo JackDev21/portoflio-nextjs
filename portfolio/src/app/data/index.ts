@@ -136,7 +136,7 @@ export const projects = [
     title: "Portfolio Personal",
     description:
       "Este portfolio personal fue desarrollado para mostrar mis proyectos y habilidades. Utiliza Next.js para el frontend y TailwindCSS, Shadcn para los estilos. El portafolio incluye secciones para sobre mí, proyectos y contacto.",
-    image: "/portfolio.png",
+    image: "/portfolio-preview.svg",
     video: "",
     technologies: ["Next.js", "React", "TailwindCSS", "TypeScript", "Shadcn"],
     gitHubLink: ["https://github.com/JackDev21/portoflio-nextjs"],

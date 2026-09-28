@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title description">
+  <title id="title">Vista previa del portfolio personal</title>
+  <desc id="description">Diseño esquemático del portfolio con encabezado, presentación y tarjetas de proyectos.</desc>
+  <rect width="800" height="500" rx="24" fill="#07111f"/>
+  <circle cx="716" cy="66" r="3" fill="#a7f3d0" opacity=".65"/>
+  <circle cx="65" cy="374" r="3" fill="#a7f3d0" opacity=".45"/>
+  <path d="M65 374 142 318 213 364M641 103 716 66 762 117" fill="none" stroke="#86efac" stroke-opacity=".26" stroke-width="2"/>
+  <rect x="42" y="38" width="716" height="424" rx="18" fill="#101c2d" stroke="#334155"/>
+  <path d="M42 86h716" stroke="#334155"/>
+  <circle cx="68" cy="62" r="6" fill="#fb7185"/>
+  <circle cx="88" cy="62" r="6" fill="#fbbf24"/>
+  <circle cx="108" cy="62" r="6" fill="#86efac"/>
+  <text x="140" y="68" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="17" font-weight="700">JackDev</text>
+  <text x="617" y="67" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="12">Proyectos  ·  Contacto</text>
+  <circle cx="400" cy="155" r="39" fill="#193b37" stroke="#6ee7b7" stroke-width="2"/>
+  <text x="400" y="169" text-anchor="middle" fill="#d1fae5" font-family="Arial, sans-serif" font-size="37">JC</text>
+  <text x="400" y="233" text-anchor="middle" fill="#d1fae5" font-family="Arial, sans-serif" font-size="28" font-weight="700">Hola, soy Jose Agustín Cantó</text>
+  <text x="400" y="259" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="15">Fullstack Developer</text>
+  <rect x="76" y="302" width="200" height="116" rx="12" fill="#17283a" stroke="#335046"/>
+  <rect x="300" y="302" width="200" height="116" rx="12" fill="#17283a" stroke="#335046"/>
+  <rect x="524" y="302" width="200" height="116" rx="12" fill="#17283a" stroke="#335046"/>
+  <path d="M95 327h100M95 345h155M95 371h144M95 387h100M319 327h100M319 345h155M319 371h144M319 387h100M543 327h100M543 345h155M543 371h144M543 387h100" stroke="#64748b" stroke-width="8" stroke-linecap="round" opacity=".75"/>
+</svg>
