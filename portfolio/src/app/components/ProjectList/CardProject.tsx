@@ -2,10 +2,10 @@ import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 import { FaGithub } from "react-icons/fa"
+import { ArrowUpRight } from "lucide-react"
 
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 
 interface ProjectCardProps {
   title: string
@@ -32,25 +32,29 @@ export function ProjectsCard({
 }: ProjectCardProps) {
   const embedUrl = video.replace("watch?v=", "embed/")
   const [selected, setSelected] = useState(0)
+  const [expanded, setExpanded] = useState(false)
   const gallery = images && images.length > 0 ? images : image ? [image] : []
+  const visibleTechnologies = expanded ? technologies : technologies.slice(0, 5)
+  const hasMoreDetails = description.length > 180 || technologies.length > 5
 
   return (
-    <Card className="w-full max-w-[395px] sm:w-[395px]">
-      <CardHeader>
-        <CardTitle>{title}</CardTitle>
+    <Card className="flex h-full w-full max-w-[395px] flex-col overflow-hidden sm:w-[395px]">
+      <CardHeader className="pb-4">
+        <CardTitle className="leading-snug">{title}</CardTitle>
       </CardHeader>
-      <CardContent>
+      <CardContent className="flex-1">
         <div className="mb-4 w-full overflow-hidden">
           {video ? (
-            <iframe src={embedUrl} allowFullScreen className="h-full w-full" />
+            <iframe src={embedUrl} title={`Vídeo de ${title}`} allowFullScreen className="aspect-video w-full rounded-md" />
           ) : gallery.length > 0 ? (
             <>
-              <div className="relative mb-2 flex h-72 w-full items-center justify-center overflow-hidden rounded-md">
+              <div className="relative mb-2 flex h-56 w-full items-center justify-center overflow-hidden rounded-md bg-gray-50 dark:bg-gray-900">
                 <Image
                   src={gallery[selected]}
                   alt={`${title} ${selected + 1}`}
-                  layout="fill"
-                  objectFit={imageFit ?? "contain"}
+                  fill
+                  sizes="(max-width: 640px) 100vw, 395px"
+                  style={{ objectFit: imageFit ?? "contain" }}
                   className="rounded-md"
                 />
               </div>
@@ -63,7 +67,7 @@ export function ProjectsCard({
                       className={`relative h-16 w-20 flex-none overflow-hidden rounded border ${selected === idx ? "ring-2 ring-green-500" : ""}`}
                       aria-label={`Ver imagen ${idx + 1}`}
                     >
-                      <Image src={img} alt={`${title} thumb ${idx + 1}`} layout="fill" objectFit="cover" />
+                      <Image src={img} alt={`${title} miniatura ${idx + 1}`} fill sizes="80px" className="object-cover" />
                     </button>
                   ))}
                 </div>
@@ -75,43 +79,43 @@ export function ProjectsCard({
             </div>
           )}
         </div>
-        <CardDescription className="whitespace-pre-line" dangerouslySetInnerHTML={{ __html: description }} />
+        <CardDescription
+          className={`whitespace-pre-line leading-relaxed ${expanded ? "" : "line-clamp-4"}`}
+          dangerouslySetInnerHTML={{ __html: description }}
+        />
+        {hasMoreDetails && (
+          <button
+            type="button"
+            aria-expanded={expanded}
+            onClick={() => setExpanded((value) => !value)}
+            className="mt-3 text-sm font-semibold text-green-800 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 dark:text-green-300"
+          >
+            {expanded ? "Ver menos" : "Ver más detalles"}
+          </button>
+        )}
       </CardContent>
 
-      <CardFooter>
+      <CardFooter className="flex flex-col items-start gap-4">
         <div className="flex flex-wrap gap-2">
-          {technologies.map((tech, index) => (
-            <div className="cursor-context-menu" key={index}>
-              <TooltipProvider>
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <Badge variant="secondary">{tech}</Badge>
-                  </TooltipTrigger>
-                  <TooltipContent>
-                    <p>Tecnología utilizada: {tech}</p>
-                  </TooltipContent>
-                </Tooltip>
-              </TooltipProvider>
-            </div>
+          {visibleTechnologies.map((tech) => (
+            <Badge variant="secondary" key={tech}>{tech}</Badge>
           ))}
+          {!expanded && technologies.length > 5 && <Badge variant="outline">+{technologies.length - 5}</Badge>}
         </div>
-        <div className="flex items-center">
+        <div className="flex flex-wrap gap-2">
+          {url && (
+            <Link href={url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 rounded-md bg-green-800 px-3 py-2 text-sm font-semibold text-white hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 dark:bg-green-300 dark:text-gray-950 dark:hover:bg-green-200">
+              Ver proyecto <ArrowUpRight aria-hidden="true" className="h-4 w-4" />
+            </Link>
+          )}
           {gitHubLink.map((link, index) => (
-            <Link href={link} key={index}>
-              <FaGithub className="ml-1 cursor-pointer text-4xl hover:text-orange-500" />
+            <Link href={link} key={link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 rounded-md border px-3 py-2 text-sm font-semibold hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 dark:hover:bg-gray-800">
+              <FaGithub aria-hidden="true" className="h-4 w-4" />
+              {gitHubLink.length > 1 ? `Código ${index + 1}` : "Código"}
             </Link>
           ))}
         </div>
       </CardFooter>
-
-      {url && (
-        <Badge className="mx-5 mb-6 inline-flex max-w-[220px] justify-center truncate px-3 py-2">
-          <Link href={url} className="truncate">
-            {" "}
-            {url}{" "}
-          </Link>
-        </Badge>
-      )}
     </Card>
   )
 }
