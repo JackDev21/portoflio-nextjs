@@ -59,4 +59,4 @@ Este portfolio fue desarrollado por **JackDev**. Siempre en busca de nuevos reto
 ## 🌐 Enlaces
 - [LinkedIn](https://www.linkedin.com/in/joseaclopez/)
 - [GitHub](https://github.com/JackDev21)
-- [Portfolio online](https://josecantoportfolio.vercel.app/)
+- [Portfolio online](https://www.josecanto.dev/)
