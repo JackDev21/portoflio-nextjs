@@ -16,8 +16,9 @@ export function AvatarDemo() {
             <Loader2 className="h-8 w-8 animate-spin text-muted-foreground" />
           </div>
         )}
+        {/* Retrato profesional optimizado para la cabecera. */}
         <AvatarImage
-          src="/Jack121025.jpeg"
+          src="/jack-portrait.webp"
           alt="Foto Jack"
           onLoad={() => setIsLoading(false)}
           className={
