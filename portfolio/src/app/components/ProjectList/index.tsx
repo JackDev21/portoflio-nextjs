@@ -14,18 +14,19 @@ export function ProjectList() {
           Proyectos
         </h2>
       </div>
-      <div className="flex flex-wrap justify-center gap-6">
+      {/* Cada fila crece según su contenido, sin estirar las tarjetas que siguen plegadas. */}
+      <div className="mx-auto grid max-w-[1240px] grid-cols-1 items-start gap-6 px-4 sm:grid-cols-2 xl:grid-cols-3">
         {projects.map((project, index) => (
           <motion.div
-            key={index}
-            className="w-full max-w-[395px] sm:w-[395px]"
+            key={project.title}
+            className="min-w-0"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 10 }}
             transition={{ duration: 0.4, ease: "easeInOut", delay: index * 0.1 }}
             viewport={{ once: false, amount: 0.1 }}
           >
-            <ProjectsCard key={index} {...project} />
+            <ProjectsCard {...project} />
           </motion.div>
         ))}
       </div>

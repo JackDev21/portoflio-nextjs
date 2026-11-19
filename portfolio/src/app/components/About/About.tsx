@@ -8,44 +8,24 @@ export function About() {
 
         <div className="flex flex-col items-center justify-center text-lg md:flex-row">
           <div className="mt-5 flex flex-col items-center justify-center space-y-4 text-left md:mt-0 md:w-2/3 md:pl-10 md:text-justify">
+            {/* La presentación destaca la integración de VeriFactu y el trabajo en aviónica. */}
             <p className="text-gray-700 dark:text-gray-300">
-              Formé parte del equipo de <strong>RkiveAI</strong>, una plataforma impulsada por
-              inteligencia artificial que transforma tu cámara y carrete en contenido listo para publicar. Automatiza la
-              edición, facilita la planificación y programación de publicaciones, y ofrece analíticas para optimizar el
-              rendimiento en redes como Instagram, TikTok y YouTube.
+              Soy <strong>desarrollador full stack y creador de FactuClient</strong>, una aplicación en producción
+              que ya utilizan clientes reales para gestionar albaranes, facturas y documentación de transporte.
+              Me encargo del desarrollo, los despliegues y el soporte. Las necesidades que me trasladan los usuarios
+              guían las mejoras del producto, que incluye DeCA digital e integra VeriFactu.
             </p>
 
             <p className="text-gray-700 dark:text-gray-300">
-              En mi rol como <strong>Fullstack Developer</strong> en RkiveAI (ene. 2025 - mar. 2026, remoto, Madrid),
-              contribuí al desarrollo y evolución de sus plataformas tecnológicas: tanto en frontend (web con Next.js,
-              apps móviles con React Native y Expo) como en backend.
+              Actualmente trabajo en <strong>PLD Space como técnico de aviónica en harness</strong>.
+              Mi experiencia en sonova me ha enseñado a trabajar con precisión, verificar el resultado y
+              resolver problemas técnicos en equipo.
             </p>
-
-            <div className="text-gray-700 dark:text-gray-300">
-              <strong>Responsabilidades principales:</strong>
-              <ul className="ml-5 mt-2 list-disc">
-                <li>Desarrollo backend en Node.js/Express: diseño e implementación de APIs y webhooks.</li>
-                <li>
-                  Desarrollo frontend (Next.js y React Native/Expo): funcionalidades end-to-end de cero a producción.
-                </li>
-                <li>
-                  Implementación y evolución de pagos con Stripe (Checkout, Elements y webhooks) para suscripciones.
-                </li>
-                <li>Gestión de infraestructura en AWS y pipelines de CI/CD: despliegues, permisos y observabilidad.</li>
-                <li>Implementación de funcionalidades basadas en IA dentro del producto.</li>
-                <li>Depuración, pruebas y aseguramiento de calidad a través de la stack completa.</li>
-              </ul>
-            </div>
 
             <p className="text-gray-700 dark:text-gray-300">
-              Vengo de un background en electrónica y microinformática, y desde pequeño me encanta este mundo
-              relacionado con la tecnología. En 2023 redirigí mi carrera hacia la programación y desde entonces me
-              motiva crear productos que aporten valor real y mejoren la experiencia de los usuarios.
-            </p>
-
-            <p className="font-semibold text-gray-700 dark:text-gray-300">
-              Actualmente me encuentro en búsqueda activa de nuevas oportunidades laborales como Fullstack Developer,
-              donde pueda seguir aportando mis conocimientos, aprender y crecer profesionalmente.
+              Antes trabajé como <strong>desarrollador full stack en RkiveAI</strong>, donde desarrollé
+              funcionalidades web y móviles con Next.js y React Native, creé APIs con Node.js e integré pagos
+              con Stripe y funciones de inteligencia artificial. También participé en los despliegues en AWS.
             </p>
           </div>
         </div>

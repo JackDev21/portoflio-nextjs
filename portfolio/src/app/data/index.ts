@@ -1,4 +1,22 @@
 export const projects = [
+  // Nueva versión independiente: conserva la tarjeta del proyecto original más abajo.
+  {
+    title: "FactuClient v2",
+    // Funciones revisadas en la aplicación, incluida la integración con VeriFactu.
+    description:
+      "Aplicación fullstack de gestión y documentación para transporte, <strong>en producción y utilizada por clientes reales</strong>. Evoluciona a partir de las necesidades y el feedback de sus usuarios.<br /><br /><strong>Gestión y facturación:</strong> clientes, albaranes con firma de entrega y archivos adjuntos, facturas y abonos rectificativos, IVA e IRPF, numeración configurable, PDF y exportación Facturae XML. Enlaces públicos y envío por WhatsApp, con seguimiento de recepción, conformidad, discrepancias y cobro.<br /><br /><strong>DeCA digital:</strong> emisión de documentos propios y registro de externos en PDF, vinculación con albaranes, QR y enlace de inspección, descarga de PDF, estados del transporte, historial de modificaciones y alertas móviles de fin de trayecto.<br /><br /><strong>VeriFactu:</strong> integración de VeriFactu en el flujo de facturación.<br /><br /><strong>Operativa:</strong> conductores con acceso propio y vehículos asignados, estadísticas mensuales, trimestrales y anuales, y facturación por cliente. Incluye roles de usuario, recuperación de contraseña, validaciones de NIF e IBAN, teléfonos internacionales y gestión de suscripción.<br /><br />Me encargo del desarrollo y mantenimiento de frontend y backend, los despliegues y la resolución de incidencias en producción.",
+    // La primera captura se usa como portada y las cuatro se muestran en «Ver más».
+    images: [
+      "/factuclient/factuclient_v2_1.png",
+      "/factuclient/factuclient_v2_2.png",
+      "/factuclient/factuclient_v2_3.png",
+      "/factuclient/factuclient_v2_4.png",
+    ],
+    video: "",
+    technologies: ["React", "Vite", "TailwindCSS", "React-PDF", "Node.js", "Express", "MongoDB", "Mongoose", "JWT"],
+    gitHubLink: [],
+    url: "https://app.factuclient.es",
+  },
   {
     title: "Incident Management System",
     description:
