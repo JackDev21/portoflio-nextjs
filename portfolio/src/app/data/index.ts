@@ -203,10 +203,12 @@ export const experiences = [
     endDate: "2023-11",
     jobTitle: "Técnico electrónico",
     company: "Sonova Group",
+    // Detalla las tareas de fabricación y reparación que formaban parte del puesto.
     description: [
-      "Trabajé en equipo con profesionales multidisciplinarios para mejorar los procesos de fabricación y reparación de audífonos.",
-      "Me especialicé en la resolución de problemas técnicos y logísticos, adaptándome rápidamente a nuevas tecnologías como SAP y sistemas de soldadura avanzada.",
-      "Gestioné mi tiempo de manera eficiente para cumplir con plazos ajustados sin comprometer la calidad, manteniendo un enfoque constante en la calidad y asegurando que cada producto cumpliera con los estándares más altos.",
+      "Participé en el proceso completo de fabricación y reparación de audífonos, desde la integración electrónica hasta el montaje, el ajuste y el acabado final.",
+      "- **Electrónica y soldadura de precisión:** integración y soldadura de microcomponentes en placa, sustitución de componentes defectuosos y cableado interno.",
+      "- **Montaje y acabado:** ensamblaje de la electrónica, la carcasa y los elementos mecánicos del audífono, seguido del ajuste y acabado del dispositivo.",
+      "- **Resolución de incidencias y trabajo en equipo:** colaboración con equipos de fabricación y reparación para resolver problemas técnicos y logísticos, con uso de SAP y atención a la calidad y los plazos de entrega.",
     ],
   },
 ]
